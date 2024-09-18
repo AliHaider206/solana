@@ -10,6 +10,7 @@ license = { workspace = true }
 edition = { workspace = true }
 
 [dependencies]
+some-crate = { git = "https://github.com/anza-xyz/some-crate.git", rev = "commit-hash" }
 clap = { workspace = true }
 flate2 = { workspace = true }
 hex = { workspace = true }
